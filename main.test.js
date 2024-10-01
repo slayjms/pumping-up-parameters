@@ -5,17 +5,34 @@ Your code goes below.
 
 
 */
-
 let x = 3
 let y = 10
 let z = 5
 let name = 'Slay'
 let greeting = 'HEY'
 
-function multiply(x, z){
 
+
+function multiply(num){
+  x = x * num
 }
-multiply(x, z, x)
+
+function modYBy(num){
+  y = y % num
+}
+
+function opposite(num){
+  z = num * -1
+}
+
+function makeFullName(James){
+  name = name + " " + James
+}
+
+function yellAt(name){
+  greeting = greeting + ", " + name + "!"
+}
+// yellAt("Slay")   HEY, Slay!
 
 
 /*********************************************************************************************************************
